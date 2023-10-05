@@ -46,3 +46,19 @@ variable "database_subnet_cidr"{
     error_message = "please enter the 2 database subnet cidr's"
   }
 }
+
+variable "is_peering_required" {
+  default = false
+}
+
+variable "default_vpc_id"{
+
+}
+
+variable "default_route_table_id"{
+
+}
+
+variable "default_cidr_block"{
+  
+}
